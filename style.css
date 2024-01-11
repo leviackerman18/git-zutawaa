@@ -61,10 +61,12 @@ body {
 .section h1 {
     color: #311772;
     font-weight: 900;
+    transform: translateY(-10vh);
 }
 
 .section p {
     color: black;
+    transform: translateY(-9vh);
 }
 
 .button {
@@ -74,7 +76,8 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 30px;
+    transform: translateY(-8vh);
 }
 
 .button:hover {
@@ -189,7 +192,6 @@ body {
     .section4 {
         margin-top: 550px;
         height: 500vh;
-        margin-bottom: 1000px;
     }
     .uiux {
         height: 300px;
